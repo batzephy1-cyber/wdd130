@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafting Adventures</title>
+    <link rel="stylesheet" href="styles\styles.css" />
+    <style>
+      /* Hero section styling */
+      .hero {
+        width: 100%; /* Full width */
+        height: 80vh; /* Large vertical space */
+        background-image: url("images/rafting-hero.jpg"); /* Replace with your rafting image */
+        background-size: cover; /* Ensures image covers entire area */
+        background-position: center; /* Keeps focus centered */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        text-align: center;
+      }
+      .hero h1 {
+        font-size: 3rem;
+      }
+      .cta-button {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #0077cc;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .newsletter {
+        padding: 2rem;
+        background-color: #f4f4f4;
+      }
+      .highlights {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+      }
+      .highlight {
+        max-width: 250px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Experience the Thrill of Rafting</h1>
+        <p>Join us for unforgettable adventures on the river.</p>
+        <a href="trips.html" class="cta-button">View Trips</a>
+      </section>
+
+      <!-- Highlights Section -->
+      <section class="highlights">
+        <div class="highlight">
+          <h2>Family Friendly</h2>
+          <p>Safe and fun trips for all ages.</p>
+        </div>
+        <div class="highlight">
+          <h2>Expert Guides</h2>
+          <p>Certified professionals to ensure your safety.</p>
+        </div>
+        <div class="highlight">
+          <h2>Scenic Routes</h2>
+          <p>Explore breathtaking landscapes along the river.</p>
+        </div>
+      </section>
+
+      <!-- Newsletter Section -->
+      <section class="newsletter">
+        <h2>Sign Up for Our Newsletter</h2>
+        <form action="#" method="post">
+          <!-- Name Field -->
+          <label for="userName">Full Name:</label>
+          <input type="text" id="userName" name="userName" required />
+
+          <!-- Email Field -->
+          <label for="userEmail">Email Address:</label>
+          <input type="email" id="userEmail" name="userEmail" required />
+
+          <!-- Signup Button -->
+          <button type="submit">Join the Adventure</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Rafting Adventures</p>
+    </footer>
+  </body>
+</html>
