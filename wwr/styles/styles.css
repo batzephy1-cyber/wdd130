@@ -1,0 +1,89 @@
+rafting-site/
+  │
+  ├──
+  index.html
+  (Home page)
+  ├──
+  trips.html
+  (Trips page)
+  ├──
+  styles/
+  │
+  └──
+  styles.css
+  (Main stylesheet)
+  ├──
+  images/
+  │
+  ├──
+  images\rafting1.jpg
+  │
+  ├──
+  images\rafting2.jpg
+  │
+  └──
+  images\logo.png
+  └──
+  scripts/
+  └──
+  main.js
+  (if
+JavaScript is used)
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #004466;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header,
+footer {
+  background-color: #004466;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-content article {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.grid-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}

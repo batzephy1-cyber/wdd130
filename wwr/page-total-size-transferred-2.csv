@@ -1,0 +1,3 @@
+﻿Page,Total Size (Transferred),Pass/Fail,Notes
+Home,420 kB,✅ Pass,Hero image compressed to 120 kB
+Trips,480 kB,✅ Pass,Gallery images resized and optimized

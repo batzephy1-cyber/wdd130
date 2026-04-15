@@ -1,0 +1,12 @@
+Home Page – CSS Overview:
+Result: No contrast issues found.
+All text/background combinations meet WCAG AA standards.
+
+Trips Page – CSS Overview:
+Result: No contrast issues found.
+All text/background combinations meet WCAG AA standards.
+
+Conclusion:
+Both pages comply with BYU Pathway Worldwide assignment criteria:
+✔ No color contrast errors detected.
+✔ Verified using CSS Overview in DevTools.
